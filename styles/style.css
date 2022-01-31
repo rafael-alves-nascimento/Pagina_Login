@@ -1,0 +1,42 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+body {
+  
+
+}
+
+#flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a9a9a9;
+  flex-direction: column;
+  margin: 5px;
+  text-align: center;
+  margin-top: 10%;
+  padding: 50px;
+}	
+	
+#bola { border-radius: 50%; 
+display: inline-block; 
+height: 100px; 
+width: 100px; 
+border: 1px solid #f4f9fc; 
+background-color: #f4f9fc; 
+}
+
+#botão { 
+  background-color: #f4f9fc;
+  border: none;
+  color: black;
+  padding: 12px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
